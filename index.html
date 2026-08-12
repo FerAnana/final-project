@@ -8,39 +8,47 @@
   </head>
   <body>
     <header id="main-header">
-      <button id="side-bar">\2630</button>
-      <p><img alt="logo" src="" /> Sofia's kitchen</p>
-    </header>
-    <main>
-      <img alt="Hero Image" src="" />
-      <h1>Sofia's kitchen</h1>
+      <button id="side-bar"></button>
+      <div id="side-content"></div>
       <p>
-        Find and enjoy thousends of recipes at your hand! From breakfast to
-        desserts and more!
+        <img alt="logo" src="images/logo.webp" width="70px" height="" /> Sofia's
+        kitchen
       </p>
-      <button id="category-button">Categories</button>
-      <button id="surprise-button">Surprise me!</button>
-      <input
-        id="search-bar"
-        type="text"
-        placeholder="Chicken, beef, lasagna..."
-      />
+    </header>
+    <main class="hero-container">
+      <picture class="image-display">
+        <source srcset="images/hero.webp" media="(min-width: 450px)" />
+        <img alt="Food on table" src="images/hero-mobile.webp" />
+      </picture>
+
+      <div class="hero-content">
+        <h1>Sofia's kitchen</h1>
+        <p>
+          Find and enjoy thousands of recipes at your hand! From breakfast to
+          desserts and more!
+        </p>
+        <div class="buttons">
+          <button>Categories</button>
+          <button>Surprise me!</button>
+        </div>
+        <input type="text" placeholder="Chicken, beef, lasagna..." />
+      </div>
     </main>
     <footer id="main-footer">
-      <div id="" class="personal info">
+      <div id="" class="personal-info">
         <p>© 2026 | Fernando Añaña</p>
         <p>+555 123 456</p>
         <p>email@example.com</p>
       </div>
-      <div class="social media">
+      <div class="social-media">
         <a href="linkedin.com">
-          <img alt="linkeding logo" src="" />
+          <img alt="linkeding logo" src="images/linkedin.svg" />
         </a>
         <a href="github.com">
-          <img alt="github logo" src="" />
+          <img alt="github logo" src="images/github.svg" />
         </a>
         <a href="instagram.com">
-          <img alt="instagram logo" src="" />
+          <img alt="instagram logo" src="images/instagram.svg" />
         </a>
       </div>
     </footer>
